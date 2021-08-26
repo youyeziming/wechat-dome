@@ -1,0 +1,24 @@
+<!--components/industry/industry.wxml-->
+<view>
+<view class="industryWrapper">
+  <view class="industry">
+    <view class="top">
+      <image src="../../images/common/jts.png"></image>
+      <text>{{title}}</text>
+    </view>
+    <view class="wrapper"wx:for="{{textarr}}" wx:key="index" >
+      <view class="left">
+        {{item.title}}
+      </view>
+      <!-- 数据暂时写死 -->
+      <view class="right">
+        <view class="btn" wx:for="{{item.label}}" wx:key="index">{{item.title}}</view>
+      </view>
+    </view>
+  </view>
+<!-- <view  class="tag" wx:if="tag">想拓展的客户标签</view> -->
+</view>
+</view>
+<!-- <view class="wrapperInside">
+  
+</view> -->

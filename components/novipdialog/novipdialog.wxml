@@ -1,0 +1,21 @@
+
+<!-- 没有会员提示 -->
+<van-overlay show="{{ showvip }}" z-index="{{9999999}}" bind:click="onClickHidesuccess">
+  <view class="wrapper">
+    <view class="blockone" custom-style="border-radius: 12rpx 12rpx 0rpx 0rpx;" catch:tap="noop">
+       <image class="blockicon" src="https://qie-online-sale-qiniu.wsandos.com/hyx.png" ></image>
+       <view style="margin-top: 5rpx;">
+        <view class="notext">很抱歉，您还未成为会员</view>
+        <view class="notext">暂时无法操作</view>
+        <view class="notext">赶紧成为我们的会员吧！</view>
+       </view>
+
+       <view class="jiadbox">
+        <view class="quxia" bindtap = "onClickHidesuccess">取消</view>
+        <view class="join" bindtap = "joinclickr">加入会员</view>
+      </view>
+
+ 
+    </view>
+  </view>
+</van-overlay>

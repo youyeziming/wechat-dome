@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3EB575",
+    "navigationBarTitleText": "模板",
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {
+    "nav-head": "/components/navHead/navHead",
+    "nav-head-center": "/components/navHeadCenter/navHeadCenter",
+    "industry": "/components/industry/industry"
+  },
+  "tabBar": {
+    "color": "#959394",
+    "selectedColor": "#2FD683",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "boxShadow": "0px -5px 20px 0px rgba(1, 8, 89, 1)",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabBar/index.png",
+        "selectedIconPath": "images/tabBar/indexSelect.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/tabBar/my.png",
+        "selectedIconPath": "images/tabBar/mySelect.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "plugins": {
+    "poster": {
+      "version": "1.2.2",
+      "provider": "wxbf07f0f22c6c200d"
+    },
+    "htmltowxml": {
+      "version": "1.4.0",
+      "provider": "wxa51b9c855ae38f3c"
+    }
+  },
+  "subPackages": [
+    {
+      "root": "package",
+      "name": "package",
+      "pages": [
+       
+      ],
+      "independent": false
+    },
+    {
+      "root": "packages",
+      "name": "customerFish",
+      "pages": [
+      ],
+      "independent": false
+    }
+  ],
+  "preloadRule": {
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

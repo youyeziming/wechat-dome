@@ -1,0 +1,24 @@
+<!-- 加入分会失败提示 -->
+<van-overlay show="{{ showsuccess }}" z-index="{{9999999}}" bind:click="onClickHidesuccess">
+  <view class="wrapper">
+    <view class="blockone" custom-style="border-radius: 12rpx 12rpx 0rpx 0rpx;" catch:tap="noop">
+       <image wx:if="{{type == 1}}" class="blockicon" src="https://flypigapi.wsandos.com/img/successax.png" ></image>
+       <image wx:if="{{type == 2}}" class="blockicon" src="https://qie-online-sale-qiniu.wsandos.com/qiangdanerror.png" ></image>
+       
+       <view class="blockcontent" wx:if="{{type == 1}}">
+        <!-- <view>申请成功</view> -->
+        <view>报名成功</view>
+       </view>
+
+       <view class="blockcontent" wx:if="{{type == 2}}">
+        <view>活动报名暂未开始</view>
+        <view>请期待!</view>
+       </view>
+
+       <view class="gobtnsae"  bindtap = "onClickHidesuccess">
+            确定
+       </view>
+ 
+    </view>
+  </view>
+</van-overlay>

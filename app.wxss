@@ -1,0 +1,48 @@
+/**app.wxss**/
+page{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333333;
+  background-color: #ffffff;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/* 颜色 */
+.color{
+  color: #2FC675;
+}
+/* color weight */
+.color_w5{
+  color: #2FC675;
+  font-weight: 500;
+}
+.color_w9_f30{
+  color: #333333;
+  font-weight: 900;
+  font-size: 30rpx;
+}
+.color_w9{
+  color: #2FC675;
+  font-weight: 900;
+}
+/* 三点 */
+.three{
+  overflow:hidden;
+  word-break:keep-all;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+/* 清除浮动 哪里浮动贴哪里*/
+.clearBoth::after{
+  clear: both;
+  content: '';
+  display: block;
+}

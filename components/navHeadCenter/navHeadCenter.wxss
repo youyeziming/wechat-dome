@@ -1,0 +1,25 @@
+/* components/navHeadCenter/navHeadCenter.wxss */
+.topHead{
+  width: 100%;
+  background-color: #3EB575;
+  color: #ffffff;
+  text-align: center;
+  position: fixed;
+  font-size: 32rpx;
+  z-index: 34535;
+}
+.nameReturn::before{
+content: "";
+display: inline-block;
+/* float: left; */
+width: 21rpx;
+height: 21rpx;
+border-left: 4rpx solid #fff;
+border-top: 4rpx solid #fff;
+position: absolute;
+left: 30rpx;
+top: 58.5%;
+transform: translateY(-50%);
+transform: rotate(-45deg);
+border-radius: 1rpx;
+}

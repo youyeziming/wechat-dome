@@ -1,0 +1,114 @@
+/* package.customerFish/pages/customerFish/customerFish.wxss */
+/* header */
+.customerFish {
+  width: 100%;
+}
+
+
+
+/* industry */
+.industryWrapper {
+  margin-bottom: 10rpx;
+}
+
+.industry {
+  width: 640rpx;
+  /* height: 524rpx; */
+  background: #FFFFFF;
+  border: 1rpx solid #EEEEEE;
+  border-radius: 10rpx;
+  margin: auto;
+  /* overflow: hidden; */
+}
+
+.industry .top {
+  height: 88rpx;
+  background: #FAFAFA;
+  border-radius: 10rpx 10rpx 0rpx 0rpx;
+  line-height: 88rpx;
+  padding-left: 29rpx;
+}
+
+.industry .top image {
+  width: 20rpx;
+  height: 10rpx;
+  transform: rotate(-270deg);
+  position: relative;
+  top: -7rpx;
+}
+
+.industry .top text {
+  font-weight: bold;
+  font-size: 30rpx;
+  padding-left: 5rpx;
+}
+
+.industry .wrapper {
+  display: flex;
+  justify-content: flex-start;
+  /* height: 0 !important; */
+  border-bottom: 1rpx solid #EEEEEE;
+}
+
+.industry .wrapper:last-child {
+  border-bottom: 0rpx;
+}
+
+.industry .wrapper .left {
+  width: 146rpx;
+  padding-top: 10rpx;
+  padding-left: 24rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+  /* background-color: red; */
+}
+
+.industry .wrapper .right {
+  flex: 1;
+  padding-top: 6rpx !important;
+  padding-left: 10rpx;
+}
+
+.industry .wrapper .right .btn {
+  display: inline-block;
+  /* width: 145rpx; */
+  /* height: 54rpx; */
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  text-align: center;
+  line-height: 54rpx;
+  margin-right: 10rpx;
+  margin-bottom: 13rpx;
+}
+
+.industry .wrapper .right .selectbtn {
+  display: inline-block;
+  /* width: 140rpx; */
+  height: 54rpx;
+  background: #2FD683;
+  border-radius: 8rpx;
+  font-size: 30rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 54rpx;
+  margin-right: 13rpx;
+  margin-bottom: 13rpx;
+  padding-left: 15rpx;
+  padding-right: 15rpx;
+}
+
+.expand {
+  display: flex;
+  justify-content: center;
+  padding-top: 26rpx;
+  padding-bottom: 26rpx;
+}
+
+.expand image {
+  width: 35rpx;
+  height: 35rpx;
+  padding-top: 7rpx;
+  padding-left: 5rpx;
+}

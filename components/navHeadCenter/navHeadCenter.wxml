@@ -1,0 +1,5 @@
+<!--components/navHeadCenter/navHeadCenter.wxml author:pandaHe -->
+<view class="topHead clearBoth" style="height:{{navHeight}}px;line-height:{{navHeight * 1.4}}px;">
+<view class="{{showReturn?'nameReturn':'name'}}" bindtap="returnBack" data-item="{{showReturn}}">{{name}}</view>
+</view>
+

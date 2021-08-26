@@ -1,0 +1,12 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="welcome">
+  <view class="wrapper">
+    <view>
+      正在加载...
+    </view>
+    <view>
+      欢迎使用
+    </view>
+  </view>
+</view>
+

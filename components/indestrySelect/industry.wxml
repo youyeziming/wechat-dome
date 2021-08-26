@@ -1,0 +1,20 @@
+
+<view class="industryWrapper">
+  <view class="industry">
+    <view class="top" bindtap="showoneclick">
+      <image src="../../images/common/jts.png"></image>
+      <text>{{title}}</text>
+    </view>
+    <view wx:if="{{showarr}}" class="wrapper"wx:for="{{textarr}}" wx:key="index" >
+      <view class="left">
+        {{item.title}}
+      </view>
+  
+      <view class="right">
+        <view class="{{item.select?'selectbtn':'btn'}}" wx:for="{{item.label}}" wx:key="index">{{item.title}}</view>
+      </view>
+    </view>
+  </view>
+
+</view>
+

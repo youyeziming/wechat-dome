@@ -1,0 +1,85 @@
+/* components/novipdialog/novipdialog.wxss */
+/* components/grabbingOrdersuccess/grabbingOrdersuccess.wxss */
+
+
+
+/* 提示弹窗 */
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.blockone {
+  width: 540rpx;
+  height: 600rpx;
+  background-color: #fff;
+  border-radius: 12rpx;
+  text-align: center;
+  padding-top: 43rpx;
+  box-sizing: border-box;
+  position: relative;
+}
+.blockicon{
+  width: 455rpx;
+  height: 300rpx;
+}
+.blockcontent{
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  margin-top: 32rpx;
+}
+.gobtnsae{
+  height: 90rpx;
+  background: #FFFFFF;
+  border-top: 1px solid #EEEEEE;
+  line-height: 90rpx;
+  margin-top: 85rpx;
+  border-radius: 0rpx 0rpx 12rpx 12rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+}
+.notext{
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+
+.jiadbox{
+  display: flex;
+  height: 90rpx;
+  margin-top: 33rpx;
+  border-top: 1px solid #EEEEEE;
+  /* line-height: 90rpx; */
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  line-height: 90rpx;
+}
+.quxia{
+  width: 270rpx;
+  height: 100%;
+  text-align: center;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+}
+.join{
+  width: 270rpx;
+  height: 100%;
+  background-color: rgb(52, 158, 101,0.2);
+  border-radius: 0rpx 0rpx 12rpx 0rpx;
+  text-align: center;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #14DC78;
+}
+
+
